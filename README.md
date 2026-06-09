@@ -6,6 +6,7 @@
 3. `uvicorn app.main:app --reload`
 
 ## Endpoints
+- `GET /version` -> current application version
 - `GET /auth/login_url` → get user login URL  
 - `POST /auth/session` → `{ "request_token": "..." }` → `{ "access_token": "..." }`  
 - `GET /market/instruments`  
