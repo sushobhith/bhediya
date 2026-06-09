@@ -5,6 +5,11 @@
 2. `pip install -r requirements.txt`
 3. `uvicorn app.main:app --reload`
 
+The required variables are:
+- `API_KEY`
+- `API_SECRET`
+- `REDIRECT_URI`
+
 ## Endpoints
 - `GET /auth/login_url` → get user login URL  
 - `POST /auth/session` → `{ "request_token": "..." }` → `{ "access_token": "..." }`  
